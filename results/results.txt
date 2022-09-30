@@ -1,0 +1,801 @@
+classify_many_feats
+FEATURE_LIST:  ['userID']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.69      0.70     57046
+           1       0.70      0.71      0.71     56899
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7026372372635921
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+
+classify_many_feats
+FEATURE_LIST:  ['authorID']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.63      0.62      0.62     56767
+           1       0.63      0.63      0.63     57178
+
+    accuracy                           0.63    113945
+   macro avg       0.63      0.63      0.63    113945
+weighted avg       0.63      0.63      0.63    113945
+
+0.6254772039141692
+Precision-Recall AUC: 0.72
+ROC AUC: 0.63
+
+classify_many_feats
+FEATURE_LIST:  ['bookID']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.64      0.72      0.68     56743
+           1       0.68      0.60      0.64     57202
+
+    accuracy                           0.66    113945
+   macro avg       0.66      0.66      0.66    113945
+weighted avg       0.66      0.66      0.66    113945
+
+0.6602220369476501
+Precision-Recall AUC: 0.74
+ROC AUC: 0.66
+
+classify_many_feats
+FEATURE_LIST:  ['rating']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.68      0.73      0.71     56754
+           1       0.71      0.67      0.69     57191
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.6975821668348765
+Precision-Recall AUC: 0.77
+ROC AUC: 0.70
+
+classify_many_feats
+FEATURE_LIST:  ['genre']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.70      0.71     56937
+           1       0.71      0.71      0.71     57008
+
+    accuracy                           0.71    113945
+   macro avg       0.71      0.71      0.71    113945
+weighted avg       0.71      0.71      0.71    113945
+
+0.7075255605774716
+Precision-Recall AUC: 0.78
+ROC AUC: 0.71
+
+classify_many_feats
+FEATURE_LIST:  ['s_loc']
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.69      0.68      0.68     57196
+           1       0.68      0.69      0.68     56749
+
+    accuracy                           0.68    113945
+   macro avg       0.68      0.68      0.68    113945
+weighted avg       0.68      0.68      0.68    113945
+
+0.6820132520075475
+Precision-Recall AUC: 0.76
+ROC AUC: 0.68
+
+BASELINE
+
+classify_bow_counts
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.69      0.70     56991
+           1       0.70      0.72      0.71     56954
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7046645311334415
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+classify_bow_counts
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+/usr/local/lib/python3.6/dist-packages/sklearn/svm/_base.py:947: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)  results
+              precision    recall  f1-score   support
+
+           0       0.70      0.72      0.71     56862
+           1       0.71      0.69      0.70     57083
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7040853043134846
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '0'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '1'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '0'
+
+classify_bow_counts RANGE (1, 2)
+X_cols[50:60]:  ['000 characters', '000 civilian', '000 coal', '000 colossal', '000 considering', '000 day', '000 dead', '000 deaths', '000 different', '000 doesn']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.70      0.71     56715
+           1       0.71      0.73      0.72     57230
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7190837684847953
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '0'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+classify_bow_counts RANGE (1,2)
+X_cols[50:60]:  ['000 characters', '000 civilian', '000 coal', '000 colossal', '000 considering', '000 day', '000 dead', '000 deaths', '000 different', '000 doesn']
+Total size y,X: 1139448 1139448
+/usr/local/lib/python3.6/dist-packages/sklearn/svm/_base.py:947: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)  results
+              precision    recall  f1-score   support
+
+           0       0.69      0.70      0.70     56762
+           1       0.70      0.69      0.69     57183
+
+    accuracy                           0.69    113945
+   macro avg       0.69      0.69      0.69    113945
+weighted avg       0.69      0.69      0.69    113945
+
+0.6949317653253763
+Precision-Recall AUC: 0.77
+ROC AUC: 0.69
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '0'
+
+"a b c d e f g"
+  - Predicted as: '0'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '0'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+
+classify_bow_counts RANGE (1,3)
+X_cols[50:60]:  ['00 in', '00 in january', '00 in the', '00 my', '00 my eyes', '00 onix', '00 onix goes', '00 pm', '00 pm and', '00 pm when']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.73      0.71      0.72     57051
+           1       0.72      0.74      0.73     56894
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.722603010224231
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '1'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+classify_bow_counts RANGE (1, 3)
+X_cols[50:60]:  ['00 in', '00 in january', '00 in the', '00 my', '00 my eyes', '00 onix', '00 onix goes', '00 pm', '00 pm and', '00 pm when']
+Total size y,X: 1139448 1139448
+/usr/local/lib/python3.6/dist-packages/sklearn/svm/_base.py:947: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)  results
+              precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70     56956
+           1       0.70      0.71      0.70     56989
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7016279784106367
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '1'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+CLASSIFYBOWNB
+classify_bow_NB  bow_feats_NB
+NLTK Naive Bayes:
+Most Informative Features
+                      om = 1                   1 : 0      =    188.6 : 1.0
+               bellatrix = 1                   1 : 0      =     84.3 : 1.0
+               netgalley = 1                   0 : 1      =     78.9 : 1.0
+                      ow = 1                   1 : 0      =     70.6 : 1.0
+                 pursuer = 1                   1 : 0      =     53.7 : 1.0
+                   biffy = 1                   1 : 0      =     40.4 : 1.0
+                    eris = 1                   1 : 0      =     39.1 : 1.0
+                blogspot = 1                   0 : 1      =     38.4 : 1.0
+               wordpress = 1                   0 : 1      =     36.7 : 1.0
+                  conall = 1                   1 : 0      =     36.4 : 1.0
+                   rahim = 1                   1 : 0      =     35.0 : 1.0
+                  cosway = 1                   0 : 1      =     34.3 : 1.0
+                terrasen = 1                   1 : 0      =     33.0 : 1.0
+                molested = 1                   1 : 0      =     32.2 : 1.0
+                    valg = 1                   1 : 0      =     31.8 : 1.0
+                  suriel = 1                   1 : 0      =     31.0 : 1.0
+                  thiago = 1                   1 : 0      =     29.7 : 1.0
+                   halle = 1                   0 : 1      =     29.5 : 1.0
+                  jasnah = 1                   1 : 0      =     28.4 : 1.0
+                 blowjob = 1                   1 : 0      =     27.7 : 1.0
+                    ream = 1                   0 : 1      =     27.0 : 1.0
+               amplifier = 1                   1 : 0      =     25.8 : 1.0
+                   lotto = 1                   1 : 0      =     25.7 : 1.0
+                   pynch = 1                   1 : 0      =     25.7 : 1.0
+                 celeana = 1                   1 : 0      =     25.4 : 1.0
+                     ioi = 1                   1 : 0      =     25.0 : 1.0
+                 trolley = 1                   1 : 0      =     25.0 : 1.0
+                     eck = 1                   1 : 0      =     24.4 : 1.0
+                setrakus = 1                   1 : 0      =     24.2 : 1.0
+               edelweiss = 1                   0 : 1      =     23.8 : 1.0
+                   cheng = 1                   1 : 0      =     23.7 : 1.0
+                   eikko = 1                   1 : 0      =     23.0 : 1.0
+                   neeve = 1                   1 : 0      =     23.0 : 1.0
+              generously = 1                   0 : 1      =     22.8 : 1.0
+                madrigal = 1                   1 : 0      =     22.7 : 1.0
+                 mcgarry = 1                   0 : 1      =     22.6 : 1.0
+                    trez = 1                   1 : 0      =     22.5 : 1.0
+                 penguin = 1                   0 : 1      =     22.4 : 1.0
+                   yeerk = 1                   1 : 0      =     22.4 : 1.0
+                sittings = 1                   0 : 1      =     22.3 : 1.0
+
+For label 0 :
+support:  56617
+Precision: 0.8007019920564057
+Recall: 0.4593320027553562
+F1: 0.5837748047050373
+
+For label 1 :
+support:  57328
+Precision: 0.6242481526035402
+Recall: 0.8870883337984928
+F1: 0.7328126576076776
+Accuracy score: 0.6745447364956777
+
+classify_bow_NB  bgram_feats_NB
+NLTK Naive Bayes:
+Most Informative Features
+                   ow-om = 1                   1 : 0      =    345.2 : 1.0
+            arc-provided = 1                   0 : 1      =    221.7 : 1.0
+            with-twitter = 1                   0 : 1      =    205.5 : 1.0
+            more-reviews = 1                   0 : 1      =    196.9 : 1.0
+                      om = 1                   1 : 0      =    189.6 : 1.0
+           honest-review = 1                   0 : 1      =    175.6 : 1.0
+             cheating-no = 1                   1 : 0      =    165.1 : 1.0
+             and-breathe = 1                   0 : 1      =    163.3 : 1.0
+           have-cheating = 1                   1 : 0      =    157.8 : 1.0
+           actual-rating = 1                   0 : 1      =    142.5 : 1.0
+                 with-ow = 1                   1 : 0      =    137.7 : 1.0
+              review-can = 1                   0 : 1      =    127.3 : 1.0
+               by-author = 1                   0 : 1      =    126.9 : 1.0
+            by-publisher = 1                   0 : 1      =    123.6 : 1.0
+        content-warnings = 1                   1 : 0      =    109.7 : 1.0
+                   h-was = 1                   1 : 0      =    107.1 : 1.0
+          flipping-pages = 1                   0 : 1      =    105.3 : 1.0
+                    h-is = 1                   1 : 0      =     96.5 : 1.0
+               netgalley = 1                   0 : 1      =     90.8 : 1.0
+           via-netgalley = 1                   0 : 1      =     89.8 : 1.0
+               bellatrix = 1                   1 : 0      =     84.7 : 1.0
+           and-netgalley = 1                   0 : 1      =     80.3 : 1.0
+             provided-by = 1                   0 : 1      =     79.6 : 1.0
+          other-partners = 1                   1 : 0      =     78.4 : 1.0
+            follow-along = 1                   0 : 1      =     77.2 : 1.0
+            to-netgalley = 1                   0 : 1      =     74.9 : 1.0
+               okay-read = 1                   0 : 1      =     74.1 : 1.0
+                   h-and = 1                   1 : 0      =     69.6 : 1.0
+           publisher-for = 1                   0 : 1      =     69.6 : 1.0
+                      ow = 1                   1 : 0      =     66.1 : 1.0
+            netgalley-in = 1                   0 : 1      =     64.5 : 1.0
+                five-out = 1                   0 : 1      =     59.6 : 1.0
+            was-provided = 1                   0 : 1      =     59.5 : 1.0
+               review-to = 1                   0 : 1      =     59.2 : 1.0
+                book-via = 1                   0 : 1      =     58.3 : 1.0
+          cliffhanger-no = 1                   1 : 0      =     55.8 : 1.0
+           netgalley-for = 1                   0 : 1      =     55.8 : 1.0
+                 pursuer = 1                   1 : 0      =     54.4 : 1.0
+            was-obtained = 1                   0 : 1      =     54.3 : 1.0
+            raw-emotions = 1                   0 : 1      =     53.0 : 1.0
+
+For label 0 :
+support:  56789
+Precision: 0.7954874241770513
+Recall: 0.5519202662487454
+F1: 0.6516893647988355
+
+For label 1 :
+support:  57156
+Precision: 0.6586445589182228
+Recall: 0.8590174259920218
+F1: 0.7456036446469249
+Accuracy score: 0.7059634033963754
+
+classify_many_feats
+FEATURE_LIST:  ['pos_bigrams']
+Pos bigrams:  0                                 #EMPTY# special-book
+1                                              #EMPTY#
+2                                 #EMPTY# good-science
+3               #EMPTY# original-chinese different-way
+4                        #EMPTY# revolutionary-history
+5                                              #EMPTY#
+6      #EMPTY# science-described book-is book-grounded
+7                                              #EMPTY#
+8           #EMPTY# found-someone someone-was side-was
+9    #EMPTY# book-was bit-dark human-reaction alien...
+Name: sent, dtype: object
+X_cols[50:60]:  ['160', '1600', '1600s', '163', '1660s', '16nothing', '16th', '17', '177', '17th']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.57      0.81      0.67     57042
+           1       0.67      0.39      0.49     56903
+
+    accuracy                           0.60    113945
+   macro avg       0.62      0.60      0.58    113945
+weighted avg       0.62      0.60      0.58    113945
+
+0.5996577296063891
+Precision-Recall AUC: 0.68
+ROC AUC: 0.60
+
+classify_bow_counts RANGE (1,4)
+X_cols[50:60]:  ['00 am so that', '00 am to', '00 am to finish', '00 and', '00 and by', '00 and by 30', '00 and enjoyed', '00 and enjoyed picking', '00 and it', '00 and it was']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.72      0.72     57113
+           1       0.72      0.73      0.72     56832
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.720523059370749
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '1'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+classify_bow_counts RANGE(1,4)
+X_cols[50:60]:  ['00 am so that', '00 am to', '00 am to finish', '00 and', '00 and by', '00 and by 30', '00 and enjoyed', '00 and enjoyed picking', '00 and it', '00 and it was']
+Total size y,X: 1139448 1139448
+/usr/local/lib/python3.6/dist-packages/sklearn/svm/_base.py:947: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)  results
+              precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70     57048
+           1       0.70      0.71      0.70     56897
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7017332923779016
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '0'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '1'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+FRANKENSTEIN: GENRE NB WITH RANGE(1,3)
+classify_many_feats
+FEATURE_LIST:  ['genre']
+X_cols[50:60]:  ['00 in', '00 in january', '00 in the', '00 my', '00 my eyes', '00 onix', '00 onix goes', '00 pm', '00 pm and', '00 pm when']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.72      0.72     56825
+           1       0.72      0.73      0.72     57120
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7206722541577076
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+
+classify_many_feats with range (1,3)
+FEATURE_LIST:  ['userID']
+X_cols[50:60]:  ['00 in', '00 in january', '00 in the', '00 my', '00 my eyes', '00 onix', '00 onix goes', '00 pm', '00 pm and', '00 pm when']
+Total size y,X: 1139448 1139448
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72     56943
+           1       0.72      0.73      0.72     57002
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7216902891746018
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+

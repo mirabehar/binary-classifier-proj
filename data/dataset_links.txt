@@ -1,0 +1,15 @@
+Github Code link:
+https://github.com/flucchetti/366project
+
+Dataset links:
+goodreads_reviews_spoiler.json.gz
+found at: 
+https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/reviews
+
+goodreads_books.json.gz and gooreads_book_genres_initial.json.gz
+found at: 
+https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/books
+
+balanced_revs.csv, balanced_rom.csv, balanced_fan.csv
+found at: 
+https://drive.google.com/drive/folders/1ZwK5se9TJIewwigd7g0uu3soNIPvtTbq?usp=sharing

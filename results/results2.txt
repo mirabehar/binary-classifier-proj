@@ -1,0 +1,436 @@
+flucchetti@timblee:~/366proj$ python3 classifier.py
+(1, 1)
+
+classify_bow_counts
+X_cols[50:60]:  ['100', '1000', '10000', '100000', '1000000', '10000000', '100000000', '10000000000000', '1000000000000000000000000000', '100000000000000000000000000000000000000000000000']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.68      0.70     57017
+           1       0.69      0.72      0.71     56928
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7022510860502874
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '1'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+
+classify_many_feats
+FEATURE_LIST:  ['s_loc']
+X_cols[120:130]:  ['10stars', '10th', '10topkindle', '10wordreview', '10x', '10yo', '10yr', '10yrs', '11', '110']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.68      0.68      0.68     56920
+           1       0.68      0.68      0.68     57025
+
+    accuracy                           0.68    113945
+   macro avg       0.68      0.68      0.68    113945
+weighted avg       0.68      0.68      0.68    113945
+
+0.681381368203958
+Precision-Recall AUC: 0.76
+ROC AUC: 0.68
+
+classify_many_feats
+FEATURE_LIST:  ['userID']
+X_cols[120:130]:  ['10stars', '10th', '10topkindle', '10wordreview', '10x', '10yo', '10yr', '10yrs', '11', '110']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.69      0.70     57127
+           1       0.70      0.71      0.71     56818
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7028478651981219
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+
+classify_many_feats
+FEATURE_LIST:  ['rating']
+X_cols[120:130]:  ['10stars', '10th', '10topkindle', '10wordreview', '10x', '10yo', '10yr', '10yrs', '11', '110']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.69      0.73      0.71     56642
+           1       0.71      0.67      0.69     57303
+
+    accuracy                           0.70    113945
+   macro avg       0.70      0.70      0.70    113945
+weighted avg       0.70      0.70      0.70    113945
+
+0.7008030190003949
+Precision-Recall AUC: 0.78
+ROC AUC: 0.70
+
+classify_many_feats
+FEATURE_LIST:  ['userID', 's_loc']
+X_cols[120:130]:  ['10stars', '10th', '10topkindle', '10wordreview', '10x', '10yo', '10yr', '10yrs', '11', '110']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.68      0.68      0.68     57189
+           1       0.68      0.68      0.68     56756
+
+    accuracy                           0.68    113945
+   macro avg       0.68      0.68      0.68    113945
+weighted avg       0.68      0.68      0.68    113945
+
+0.6829084207292992
+Precision-Recall AUC: 0.76
+ROC AUC: 0.68
+(1, 2)
+
+classify_bow_counts
+X_cols[50:60]:  ['000 characters', '000 civilian', '000 coal', '000 colossal', '000 considering', '000 day', '000 dead', '000 deaths', '000 different', '000 doesn']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.73      0.70      0.71     56951
+           1       0.71      0.73      0.72     56994
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7191364254684277
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '0'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+
+classify_many_feats
+FEATURE_LIST:  ['s_loc']
+X_cols[120:130]:  ['000 steps', '000 strong', '000 that', '000 this', '000 thumbs', '000 times', '000 to', '000 troops', '000 warriors', '000 was']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.75      0.65      0.70     57105
+           1       0.69      0.78      0.73     56840
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7174514019921893
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['userID']
+X_cols[120:130]:  ['000 steps', '000 strong', '000 that', '000 this', '000 thumbs', '000 times', '000 to', '000 troops', '000 warriors', '000 was']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.71     57095
+           1       0.71      0.73      0.72     56850
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7181183904515336
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['rating']
+X_cols[120:130]:  ['000 steps', '000 strong', '000 that', '000 this', '000 thumbs', '000 times', '000 to', '000 troops', '000 warriors', '000 was']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.74      0.72     56931
+           1       0.73      0.70      0.71     57014
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.716775637368906
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['userID', 's_loc']
+X_cols[120:130]:  ['000 steps', '000 strong', '000 that', '000 this', '000 thumbs', '000 times', '000 to', '000 troops', '000 warriors', '000 was']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.75      0.65      0.70     56754
+           1       0.70      0.78      0.74     57191
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7186976172714906
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+(1, 3)
+
+classify_bow_counts
+X_cols[50:60]:  ['00 in', '00 in january', '00 in the', '00 my', '00 my eyes', '00 onix', '00 onix goes', '00 pm', '00 pm and', '00 pm when']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72     56736
+           1       0.72      0.73      0.73     57209
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7209706437316249
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+"H kills V at the end."
+  - Predicted as: '1'
+
+"I never expected it to end with a big wedding..."
+  - Predicted as: '1'
+
+"a b c d e f g"
+  - Predicted as: '0'
+
+"ajvhsdbnmu Woooooow fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"ajvhsdbnmu fs qon vjk vkuhg dkj!!!!"
+  - Predicted as: '1'
+
+"What a cliffhanger!"
+  - Predicted as: '0'
+
+"How sad that A K dies."
+  - Predicted as: '1'
+
+"I don't believe it!!"
+  - Predicted as: '1'
+
+"Another one for the hell of it."
+  - Predicted as: '0'
+
+"Really I am trying to trick you, why did it have to happen"
+  - Predicted as: '1'
+
+"NOOOOOOOOO"
+  - Predicted as: '1'
+
+"NO"
+  - Predicted as: '1'
+
+"YES"
+  - Predicted as: '1'
+
+"This isn't a spoiler."
+  - Predicted as: '0'
+
+"I can't believe DV was L's father!"
+  - Predicted as: '1'
+
+
+classify_many_feats
+FEATURE_LIST:  ['s_loc']
+X_cols[120:130]:  ['000 colossal', '000 colossal sum', '000 considering', '000 considering the', '000 day', '000 day because', '000 dead', '000 dead people', '000 dead skeletons', '000 deaths']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.78      0.62      0.69     57051
+           1       0.68      0.82      0.75     56894
+
+    accuracy                           0.72    113945
+   macro avg       0.73      0.72      0.72    113945
+weighted avg       0.73      0.72      0.72    113945
+
+0.7213480187809909
+Precision-Recall AUC: 0.80
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['userID']
+X_cols[120:130]:  ['000 colossal', '000 colossal sum', '000 considering', '000 considering the', '000 day', '000 day because', '000 dead', '000 dead people', '000 dead skeletons', '000 deaths']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72     56900
+           1       0.72      0.73      0.72     57045
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7214884374040107
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['rating']
+X_cols[120:130]:  ['000 colossal', '000 colossal sum', '000 considering', '000 considering the', '000 day', '000 day because', '000 dead', '000 dead people', '000 dead skeletons', '000 deaths']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.71      0.74      0.72     57023
+           1       0.73      0.70      0.71     56922
+
+    accuracy                           0.72    113945
+   macro avg       0.72      0.72      0.72    113945
+weighted avg       0.72      0.72      0.72    113945
+
+0.7183904515336347
+Precision-Recall AUC: 0.79
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['userID', 's_loc']
+X_cols[120:130]:  ['000 colossal', '000 colossal sum', '000 considering', '000 considering the', '000 day', '000 day because', '000 dead', '000 dead people', '000 dead skeletons', '000 deaths']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.78      0.63      0.69     57266
+           1       0.68      0.82      0.74     56679
+
+    accuracy                           0.72    113945
+   macro avg       0.73      0.72      0.72    113945
+weighted avg       0.73      0.72      0.72    113945
+
+0.7214884374040107
+Precision-Recall AUC: 0.80
+ROC AUC: 0.72
+
+classify_many_feats
+FEATURE_LIST:  ['pos_bigrams']
+Pos bigrams:  0                          #EMPTY# special-NN
+1                                     #EMPTY#
+2                             #EMPTY# good-NN
+3           #EMPTY# original-NNP different-NN
+4                    #EMPTY# revolutionary-NN
+5                                     #EMPTY#
+6      #EMPTY# NN-described NN-is NN-grounded
+7                                     #EMPTY#
+8              #EMPTY# found-NN NN-was NN-was
+9    #EMPTY# NN-was NN-dark human-NN alien-NN
+Name: sent, dtype: object
+X_cols[120:130]:  ['280', '281', '286', '287', '29', '294', '2d', '2nd', '30', '300']
+Total size y,X: 1139448 1139448
+MultinomialNB()  results
+              precision    recall  f1-score   support
+
+           0       0.55      0.76      0.64     57355
+           1       0.61      0.37      0.46     56590
+
+    accuracy                           0.57    113945
+   macro avg       0.58      0.57      0.55    113945
+weighted avg       0.58      0.57      0.55    113945
+
+0.5681600772302426
+Precision-Recall AUC: 0.64
+ROC AUC: 0.57
+flucchetti@timblee:~/366proj$ 
